@@ -59,6 +59,12 @@ class TrailList extends Component {
           {items.map(item => (
             <span key={item.id}>
             <p>
+              <a href={item.url} target="_blank" onclick="function()">Details</a>
+            </p> 
+            <p>
+              <img src={item.imgSmallMed}></img>
+            </p>
+            <p>
               {item.name} 
             </p> 
             <p>
