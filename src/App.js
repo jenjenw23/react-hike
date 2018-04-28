@@ -17,6 +17,7 @@ class App extends Component {
     );
   }
 }
+
 class TrailList extends Component {
   constructor() {
     super();
