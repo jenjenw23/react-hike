@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Wrapper from "./components/Wrapper";
 import logo from "./logo.svg";
 import "./App.css";
 import Auth from './Auth/Auth.js';
@@ -7,7 +9,7 @@ import Auth from './Auth/Auth.js';
 import { Button } from 'react-bootstrap';
 
 const auth = new Auth();
-auth.login();
+// auth.login();
 
 class Front extends Component {
   
@@ -25,13 +27,16 @@ class Front extends Component {
   
   render() {
 
-    const { isAuthenticated } = this.props.auth;
+    // const { isAuthenticated } = this.props.auth;
     
     return (
-        <div className="App">
-        <div className="App-header">
+      <div>
+         <Wrapper>
           <Navbar />
-          <div><a href="tomlachance.com">Auth0 - React</a></div>
+          <div className="container">
+            <div className="row">
+              <p>This is some text. Blah blah blah.</p>
+          {/* <div><a href="tomlachance.com">Auth0 - React</a></div>
             <Button
               bsStyle="primary"
               className="btn-margin"
@@ -60,10 +65,11 @@ class Front extends Component {
                     Log Out
                   </Button>
                 )
-            }
-        </div>
-      <div className='ui unstackable items'>
-      </div>
+            } */}
+              </div>
+            </div>
+            <Footer />
+       </Wrapper>
       </div>
     );
   }
