@@ -1,18 +1,23 @@
 import React, { Component } from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Wrapper from "./components/Wrapper";
 import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
-        <div className="App">
-        <div className="App-header">
+        <div>
+         <Wrapper>
           <Navbar />
-        </div>
-      <div className='ui unstackable items'>
+          <div className="container text-center">
+            <div className="row">
          <TrailList />
-      </div>
+         </div>
+            </div>
+            <Footer />
+       </Wrapper>
       </div>
     );
   }
