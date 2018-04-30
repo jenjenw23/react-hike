@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper";
+import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
 }
 
 class TrailList extends Component {
+  
   constructor() {
     super();
     this.state = {
@@ -64,28 +66,25 @@ class TrailList extends Component {
           {items.map(item => (
             <span key={item.id}>
             <p>
-              <a href={item.url} target="_blank" onClick="function()">Details</a>
+              <h5 className="mt-0 mb-1 name">  {item.name.toUpperCase()} </h5>
             </p> 
-            <p>
-              <img src={item.imgSmallMed} alt={" "}></img>
-            </p>
-            <p>
-              {item.name} 
-            </p> 
-            <p>
-               {item.summary} 
-            </p>
-            <p>
-              {item.location} 
-            </p>  
-            <p>
-            {item.ascent}' Ascent
-            </p>
-            <p>
-            {item.descent}' Descent'
-            </p>
-            <hr></hr>
+            <ul className="list-unstyled">
+            <li className="media">
+              <img className="mr-3" src={item.imgSmall} alt="Generic placeholder image"></img>
+              <div className="media-body">
+                <h6 className="mt-0 mb-1"><i class="fas fa-star"></i>  {item.summary} <br></br> </h6>
+                <h6 className="mt-0 mb-1">LOCATION: {item.location} <br></br> </h6>
+                <h6 className="mt-0 mb-1"> STAR RATING: {item.stars}  <br></br></h6>
+                <h6 className="mt-0 mb-1">ASCENT: {item.ascent} <br></br> </h6>
+                <h6 className="mt-0 mb-1"> DESCENT: {item.descent}  <br></br></h6>
+                <h6><a href={item.url} target="_blank" >MORE INFO</a></h6>
+           
+              </div>
+              </li>
+              </ul>
+          
           </span>
+          
         ))}
         </div>
       );
