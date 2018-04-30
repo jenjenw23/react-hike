@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper";
-import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
@@ -65,26 +64,21 @@ class TrailList extends Component {
         <div>
           {items.map(item => (
             <span key={item.id}>
-            <p>
               <h5 className="mt-0 mb-1 name">  {item.name.toUpperCase()} </h5>
-            </p> 
-            <ul className="list-unstyled">
-            <li className="media">
-              <img className="mr-3" src={item.imgSmall} alt="Generic placeholder image"></img>
-              <div className="media-body">
-                <h6 className="mt-0 mb-1"><i class="fas fa-star"></i>  {item.summary} <br></br> </h6>
-                <h6 className="mt-0 mb-1">LOCATION: {item.location} <br></br> </h6>
-                <h6 className="mt-0 mb-1"> STAR RATING: {item.stars}  <br></br></h6>
-                <h6 className="mt-0 mb-1">ASCENT: {item.ascent} <br></br> </h6>
-                <h6 className="mt-0 mb-1"> DESCENT: {item.descent}  <br></br></h6>
-                <h6><a href={item.url} target="_blank" >MORE INFO</a></h6>
-           
-              </div>
+              <ul className="list-unstyled">
+              <li className="media">
+                <img className="mr-3" src={item.imgSmall} alt={" "}></img>
+                  <div className="media-body">
+                    <h6 className="mt-0 mb-1"><i className="fas fa-star"></i>  {item.summary} <br></br> </h6>
+                    <h6 className="mt-0 mb-1">LOCATION: {item.location} <br></br> </h6>
+                    <h6 className="mt-0 mb-1"> STAR RATING: {item.stars}  <br></br></h6>
+                    <h6 className="mt-0 mb-1">ASCENT: {item.ascent} <br></br> </h6>
+                    <h6 className="mt-0 mb-1"> DESCENT: {item.descent}  <br></br></h6>
+                    <h6><a href={item.url} target="_blank" >MORE INFO</a></h6>
+                  </div>
               </li>
               </ul>
-          
           </span>
-          
         ))}
         </div>
       );
