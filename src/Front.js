@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper";
-import logo from "./logo.svg";
 import "./App.css";
 import Auth from './Auth/Auth.js';
 // possible error underneath on line 7 no Navbar or button?

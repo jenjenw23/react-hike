@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper";
-import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
@@ -65,10 +64,10 @@ class TrailList extends Component {
           {items.map(item => (
             <span key={item.id}>
             <p>
-              <a href={item.url} target="_blank" onclick="function()">Details</a>
+              <a href={item.url} target="_blank" onClick="function()">Details</a>
             </p> 
             <p>
-              <img src={item.imgSmallMed}></img>
+              <img src={item.imgSmallMed} alt={" "}></img>
             </p>
             <p>
               {item.name} 
