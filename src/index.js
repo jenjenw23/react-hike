@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom'
 import App from '../src/App';
 import Front from '../src/Front';
 
+
 render((
   <BrowserRouter>
     <div> 
