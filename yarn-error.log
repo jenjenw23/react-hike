@@ -1,17 +1,17 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn start
+  C:\Program Files\nodejs\node.exe C:\Users\jwoula01\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
 
 PATH: 
-  /Users/thomaslachance/.rvm/gems/ruby-2.4.0/bin:/Users/thomaslachance/.rvm/gems/ruby-2.4.0@global/bin:/Users/thomaslachance/.rvm/rubies/ruby-2.4.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/thomaslachance/.rvm/gems/ruby-2.4.0/bin:/Users/thomaslachance/.rvm/gems/ruby-2.4.0@global/bin:/Users/thomaslachance/.rvm/rubies/ruby-2.4.0/bin:/usr/local/mysql/bin:/Users/thomaslachance/.rvm/bin
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\jwoula01\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\jwoula01\AppData\Local\Programs\Python\Python35\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Heroku\bin;C:\Users\jwoula01\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  8.9.4
+  6.11.5
 
 Platform: 
-  darwin x64
+  win32 x64
 
 npm manifest: 
   {
@@ -375,12 +375,12 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   
   atob@^2.0.0:
-    version "2.1.0"
-    resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.0.tgz#ab2b150e51d7b122b9efc8d7340c06b6c41076bc"
+    version "2.1.1"
+    resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
   
   auth0-js@^9.5.0:
-    version "9.5.0"
-    resolved "https://registry.yarnpkg.com/auth0-js/-/auth0-js-9.5.0.tgz#b61dfe85227c75b31be68444beac826e1935bd12"
+    version "9.5.1"
+    resolved "https://registry.yarnpkg.com/auth0-js/-/auth0-js-9.5.1.tgz#34dea6b0f11b5e5ee139605611f49b1c0f15dbb1"
     dependencies:
       base64-js "^1.2.0"
       idtoken-verifier "^1.2.0"
@@ -1042,7 +1042,7 @@ Lockfile:
       mkdirp "^0.5.1"
       source-map-support "^0.4.15"
   
-  babel-runtime@6.26.0, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
+  babel-runtime@6.26.0, babel-runtime@^6.11.6, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
     version "6.26.0"
     resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
     dependencies:
@@ -1473,17 +1473,9 @@ Lockfile:
       strip-ansi "^3.0.0"
       supports-color "^2.0.0"
   
-  chalk@^2.0.0, chalk@^2.1.0, chalk@^2.4.1:
+  chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1:
     version "2.4.1"
     resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
-    dependencies:
-      ansi-styles "^3.2.1"
-      escape-string-regexp "^1.0.5"
-      supports-color "^5.3.0"
-  
-  chalk@^2.0.1:
-    version "2.4.0"
-    resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.0.tgz#a060a297a6b57e15b61ca63ce84995daa0fe6e52"
     dependencies:
       ansi-styles "^3.2.1"
       escape-string-regexp "^1.0.5"
@@ -1559,6 +1551,10 @@ Lockfile:
       define-property "^0.2.5"
       isobject "^3.0.0"
       static-extend "^0.1.1"
+  
+  classnames@^2.2.5:
+    version "2.2.5"
+    resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
   
   clean-css@4.1.x:
     version "4.1.11"
@@ -2056,9 +2052,9 @@ Lockfile:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
   
-  deep-extend@~0.4.0:
-    version "0.4.2"
-    resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.2.tgz#48b699c27e334bf89f10892be432f6e4c7d34a7f"
+  deep-extend@^0.5.1:
+    version "0.5.1"
+    resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.5.1.tgz#b894a9dd90d3023fbf1c55a394fb858eb2066f1f"
   
   deep-is@~0.1.3:
     version "0.1.3"
@@ -2219,6 +2215,10 @@ Lockfile:
     dependencies:
       utila "~0.3"
   
+  dom-helpers@^3.2.0, dom-helpers@^3.2.1, dom-helpers@^3.3.1:
+    version "3.3.1"
+    resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.3.1.tgz#fc1a4e15ffdf60ddde03a480a9c0fece821dd4a6"
+  
   dom-serializer@0:
     version "0.1.0"
     resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.1.0.tgz#073c697546ce0780ce23be4a28e293e40bc30c82"
@@ -2304,8 +2304,8 @@ Lockfile:
       interrupt "1.x"
   
   electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30:
-    version "1.3.44"
-    resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.44.tgz#ef6b150a60d523082388cadad88085ecd2fd4684"
+    version "1.3.45"
+    resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.45.tgz#458ac1b1c5c760ce8811a16d2bfbd97ec30bafb8"
   
   elliptic@^6.0.0:
     version "6.4.0"
@@ -3007,7 +3007,7 @@ Lockfile:
       combined-stream "1.0.6"
       mime-types "^2.1.12"
   
-  formidable@^1.1.1:
+  formidable@^1.2.0:
     version "1.2.1"
     resolved "https://registry.yarnpkg.com/formidable/-/formidable-1.2.1.tgz#70fb7ca0290ee6ff961090415f4b3df3d2082659"
   
@@ -3057,16 +3057,9 @@ Lockfile:
     version "1.0.0"
     resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   
-  fsevents@^1.0.0, fsevents@^1.1.3:
+  fsevents@^1.0.0, fsevents@^1.1.2, fsevents@^1.1.3:
     version "1.2.3"
     resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-1.2.3.tgz#08292982e7059f6674c93d8b829c1e8604979ac0"
-    dependencies:
-      nan "^2.9.2"
-      node-pre-gyp "^0.9.0"
-  
-  fsevents@^1.1.2:
-    version "1.2.2"
-    resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-1.2.2.tgz#4f598f0f69b273188ef4a62ca4e9e08ace314bbf"
     dependencies:
       nan "^2.9.2"
       node-pre-gyp "^0.9.0"
@@ -3621,7 +3614,7 @@ Lockfile:
     dependencies:
       supersede "1.x"
   
-  invariant@^2.2.1, invariant@^2.2.2:
+  invariant@^2.1.0, invariant@^2.2.1, invariant@^2.2.2:
     version "2.2.4"
     resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
     dependencies:
@@ -4372,6 +4365,10 @@ Lockfile:
       promised-io "*"
       walker "1.x"
   
+  keycode@^2.1.2:
+    version "2.2.0"
+    resolved "https://registry.yarnpkg.com/keycode/-/keycode-2.2.0.tgz#3d0af56dc7b8b8e5cba8d0a97f107204eec22b04"
+  
   killable@^1.0.0:
     version "1.0.0"
     resolved "https://registry.yarnpkg.com/killable/-/killable-1.0.0.tgz#da8b84bd47de5395878f95d64d02f2449fe05e6b"
@@ -4821,8 +4818,8 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   
   needle@^2.2.0:
-    version "2.2.0"
-    resolved "https://registry.yarnpkg.com/needle/-/needle-2.2.0.tgz#f14efc69cee1024b72c8b21c7bdf94a731dc12fa"
+    version "2.2.1"
+    resolved "https://registry.yarnpkg.com/needle/-/needle-2.2.1.tgz#b5e325bd3aae8c2678902fa296f729455d1d3a7d"
     dependencies:
       debug "^2.1.2"
       iconv-lite "^0.4.4"
@@ -5705,7 +5702,14 @@ Lockfile:
     version "0.3.5"
     resolved "https://registry.yarnpkg.com/promised-io/-/promised-io-0.3.5.tgz#4ad217bb3658bcaae9946b17a8668ecd851e1356"
   
-  prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.0:
+  prop-types-extra@^1.0.1:
+    version "1.1.0"
+    resolved "https://registry.yarnpkg.com/prop-types-extra/-/prop-types-extra-1.1.0.tgz#32609910ea2dcf190366bacd3490d5a6412a605f"
+    dependencies:
+      react-is "^16.3.2"
+      warning "^3.0.0"
+  
+  prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.0, prop-types@^15.6.1:
     version "15.6.1"
     resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
     dependencies:
@@ -5833,13 +5837,30 @@ Lockfile:
       unpipe "1.0.0"
   
   rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
-    version "1.2.6"
-    resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.6.tgz#eb18989c6d4f4f162c399f79ddd29f3835568092"
+    version "1.2.7"
+    resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.7.tgz#8a10ca30d588d00464360372b890d06dacd02297"
     dependencies:
-      deep-extend "~0.4.0"
+      deep-extend "^0.5.1"
       ini "~1.3.0"
       minimist "^1.2.0"
       strip-json-comments "~2.0.1"
+  
+  react-bootstrap@^0.32.1:
+    version "0.32.1"
+    resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-0.32.1.tgz#60624c1b48a39d773ef6cce6421a4f33ecc166bb"
+    dependencies:
+      babel-runtime "^6.11.6"
+      classnames "^2.2.5"
+      dom-helpers "^3.2.0"
+      invariant "^2.2.1"
+      keycode "^2.1.2"
+      prop-types "^15.5.10"
+      prop-types-extra "^1.0.1"
+      react-overlays "^0.8.0"
+      react-prop-types "^0.4.0"
+      react-transition-group "^2.0.0"
+      uncontrollable "^4.1.0"
+      warning "^3.0.0"
   
   react-dev-utils@^5.0.1:
     version "5.0.1"
@@ -5876,6 +5897,27 @@ Lockfile:
   react-error-overlay@^4.0.0:
     version "4.0.0"
     resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
+  
+  react-is@^16.3.2:
+    version "16.3.2"
+    resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.3.2.tgz#f4d3d0e2f5fbb6ac46450641eb2e25bf05d36b22"
+  
+  react-overlays@^0.8.0:
+    version "0.8.3"
+    resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-0.8.3.tgz#fad65eea5b24301cca192a169f5dddb0b20d3ac5"
+    dependencies:
+      classnames "^2.2.5"
+      dom-helpers "^3.2.1"
+      prop-types "^15.5.10"
+      prop-types-extra "^1.0.1"
+      react-transition-group "^2.2.0"
+      warning "^3.0.0"
+  
+  react-prop-types@^0.4.0:
+    version "0.4.0"
+    resolved "https://registry.yarnpkg.com/react-prop-types/-/react-prop-types-0.4.0.tgz#f99b0bfb4006929c9af2051e7c1414a5c75b93d0"
+    dependencies:
+      warning "^3.0.0"
   
   react-router-dom@^4.2.2:
     version "4.2.2"
@@ -5945,6 +5987,14 @@ Lockfile:
     optionalDependencies:
       fsevents "^1.1.3"
   
+  react-transition-group@^2.0.0, react-transition-group@^2.2.0:
+    version "2.3.1"
+    resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.3.1.tgz#31d611b33e143a5e0f2d94c348e026a0f3b474b6"
+    dependencies:
+      dom-helpers "^3.3.1"
+      loose-envify "^1.3.1"
+      prop-types "^15.6.1"
+  
   react@^16.3.2:
     version "16.3.2"
     resolved "https://registry.yarnpkg.com/react/-/react-16.3.2.tgz#fdc8420398533a1e58872f59091b272ce2f91ea9"
@@ -5993,7 +6043,7 @@ Lockfile:
       isarray "0.0.1"
       string_decoder "~0.10.x"
   
-  readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.2.2, readable-stream@^2.2.9, readable-stream@^2.3.3:
+  readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.2.2, readable-stream@^2.2.9, readable-stream@^2.3.3, readable-stream@^2.3.5:
     version "2.3.6"
     resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
     dependencies:
@@ -6286,11 +6336,11 @@ Lockfile:
     version "2.3.24"
     resolved "https://registry.yarnpkg.com/rx/-/rx-2.3.24.tgz#14f950a4217d7e35daa71bbcbe58eff68ea4b2b7"
   
-  safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+  safe-buffer@5.1.1:
     version "5.1.1"
     resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
   
-  safe-buffer@^5.1.0:
+  safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
     version "5.1.2"
     resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   
@@ -6776,19 +6826,19 @@ Lockfile:
       schema-utils "^0.3.0"
   
   superagent@^3.8.2:
-    version "3.8.2"
-    resolved "https://registry.yarnpkg.com/superagent/-/superagent-3.8.2.tgz#e4a11b9d047f7d3efeb3bbe536d9ec0021d16403"
+    version "3.8.3"
+    resolved "https://registry.yarnpkg.com/superagent/-/superagent-3.8.3.tgz#460ea0dbdb7d5b11bc4f78deba565f86a178e128"
     dependencies:
       component-emitter "^1.2.0"
       cookiejar "^2.1.0"
       debug "^3.1.0"
       extend "^3.0.0"
       form-data "^2.3.1"
-      formidable "^1.1.1"
+      formidable "^1.2.0"
       methods "^1.1.1"
       mime "^1.4.1"
       qs "^6.5.1"
-      readable-stream "^2.0.5"
+      readable-stream "^2.3.5"
   
   supersede@1.x:
     version "1.0.5"
@@ -6882,15 +6932,15 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/tapable/-/tapable-0.2.8.tgz#99372a5c999bf2df160afc0d74bed4f47948cd22"
   
   tar@^4:
-    version "4.4.1"
-    resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.1.tgz#b25d5a8470c976fd7a9a8a350f42c59e9fa81749"
+    version "4.4.2"
+    resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.2.tgz#60685211ba46b38847b1ae7ee1a24d744a2cd462"
     dependencies:
       chownr "^1.0.1"
       fs-minipass "^1.2.5"
       minipass "^2.2.4"
       minizlib "^1.1.0"
       mkdirp "^0.5.0"
-      safe-buffer "^5.1.1"
+      safe-buffer "^5.1.2"
       yallist "^3.0.2"
   
   term-size@^1.2.0:
@@ -7061,8 +7111,8 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-1.3.5.tgz#4b5bfff9186effbaa888e4c9e94bd9fc4c94929d"
   
   uglify-js@3.3.x, uglify-js@^3.0.13:
-    version "3.3.22"
-    resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.3.22.tgz#e5f0e50ddd386b7e35b728b51600bf7a7ad0b0dc"
+    version "3.3.23"
+    resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.3.23.tgz#48ea43e638364d18be292a6fdc2b5b7c35f239ab"
     dependencies:
       commander "~2.15.0"
       source-map "~0.6.1"
@@ -7087,6 +7137,12 @@ Lockfile:
       source-map "^0.5.6"
       uglify-js "^2.8.29"
       webpack-sources "^1.0.1"
+  
+  uncontrollable@^4.1.0:
+    version "4.1.0"
+    resolved "https://registry.yarnpkg.com/uncontrollable/-/uncontrollable-4.1.0.tgz#e0358291252e1865222d90939b19f2f49f81c1a9"
+    dependencies:
+      invariant "^2.1.0"
   
   undefsafe@^2.0.2:
     version "2.0.2"
@@ -7143,8 +7199,8 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/unzip-response/-/unzip-response-2.0.1.tgz#d2f0f737d16b0615e72a6935ed04214572d56f97"
   
   upath@^1.0.0:
-    version "1.0.4"
-    resolved "https://registry.yarnpkg.com/upath/-/upath-1.0.4.tgz#ee2321ba0a786c50973db043a50b7bcba822361d"
+    version "1.0.5"
+    resolved "https://registry.yarnpkg.com/upath/-/upath-1.0.5.tgz#02cab9ecebe95bbec6d5fc2566325725ab6d1a73"
   
   update-notifier@^2.3.0:
     version "2.5.0"
@@ -7675,15 +7731,16 @@ Lockfile:
 Trace: 
   Error: Command failed.
   Exit code: 1
-  Command: sh
-  Arguments: -c react-scripts start
-  Directory: /Users/thomaslachance/Documents/northwestern/projects/react-hike
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c react-scripts start
+  Directory: c:\Users\jwoula01\Desktop\NW-stuff\git-repos\react-hike
   Output:
   
-      at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
-      at new ProcessTermError (/usr/local/lib/node_modules/yarn/lib/cli.js:226:113)
-      at ChildProcess.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:30281:17)
-      at emitTwo (events.js:126:13)
-      at ChildProcess.emit (events.js:214:7)
-      at maybeClose (internal/child_process.js:925:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+      at ProcessTermError.Error (native)
+      at ProcessTermError.MessageError (C:\Users\jwoula01\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Users\jwoula01\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Users\jwoula01\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:30281:17)
+      at emitTwo (events.js:106:13)
+      at ChildProcess.emit (events.js:191:7)
+      at maybeClose (internal/child_process.js:920:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
